@@ -1,0 +1,329 @@
+.header {
+    &__title {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 36px;
+        width: 400px;
+        color: #000;
+        position: relative;
+
+    }
+
+    &__med {
+        width: 94px;
+        height: 60px;
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-left: 30px;
+    }
+
+    &__item1 {
+        margin-left: 30px;
+        border: none;
+        background: none;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 22px;
+        color: #535761;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-right: 20px;
+
+        &:hover {
+            color: #1d85fb;
+        }
+
+    }
+
+    &__account {
+        margin-left: 30px;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    &__acc {
+        width: 50px;
+        height: 30px;
+    }
+
+    &__link {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 22px;
+        color: #535761;
+        position: relative;
+
+    }
+
+    &__call {
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        right: 85px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            fill: black;
+        }
+    }
+
+    &__btn1 {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 16px;
+        color: #ffffff;
+
+        border: 2px solid #1d85fb;
+        background: #1d85fb;
+        padding: 16px 35px 15px 37px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            background: #ffffff;
+            color: #1d85fb;
+        }
+    }
+
+    &__question {
+        width: 50px;
+        height: 30px;
+    }
+
+    &__popup-question {
+        border: none;
+        background: none;
+        padding-top: 20px;
+        cursor: pointer;
+    }
+
+    ///////////
+    &__popup__bg {
+        position: fixed;
+        display: none;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        transition: 0.5s all;
+    }
+
+    &__question-popup__bg {
+        position: fixed;
+        display: none;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        transition: 0.5s all;
+    }
+    &__account-popup__bg {
+        position: fixed;
+        display: none;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        transition: 0.5s all;
+    }
+
+
+    &__popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+        width: 300px;
+        padding: 25px;
+        border-radius: 15px 15px;
+        transition: 0.5s all;
+    }
+
+    &__account-popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+        width: 300px;
+        padding: 25px;
+        border-radius: 15px 15px;
+        transition: 0.5s all;
+    }
+    &__question-popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #ffffff;
+        width: 400px;
+        padding: 25px;
+        border-radius: 15px 15px;
+        transition: 0.5s all;
+    }
+
+    &__close-popup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    &__account-close-popup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    &__question-close-popup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    &__popup-description{
+        font-family: "Inter";
+        font-size: 15px;
+        font-weight: 500;
+        color: #808285;
+       padding-top: 20px;
+    }
+
+    &__popup-registr {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 16px;
+        color: #ffffff;
+
+        border: 2px solid #1d85fb;
+        background: #1d85fb;
+        padding: 16px 35px 15px 37px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 30px;
+
+        &:hover {
+            background: #ffffff;
+            color: #1d85fb;
+        }
+    }
+
+    &__popup-into {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 16px;
+        color: #ffffff;
+
+        border: 2px solid #1d85fb;
+        background: #1d85fb;
+        padding: 16px 35px 15px 37px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 20px;
+
+        &:hover {
+            background: #ffffff;
+            color: #1d85fb;
+        }
+    }
+
+
+    &__popup__content input {
+        height: 45px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #cfd0d3;
+        ;
+    }
+
+    &__popup__content input:focus {
+        border-bottom: 1px solid #1d85fb;
+        ;
+    }
+
+    &__popup__content input:focus+.label__text {
+        color: #1d85fb;
+    }
+
+    &__popup__content label {
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    &__popup__content .label__text {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: #cfd0d3;
+        margin-bottom: 5px;
+    }
+
+    &__popup__content {
+        padding-top: 25px;
+    }
+    &__account-popup__content{
+        display: flex;
+        flex-direction: column;
+    }
+    &__popup__right {
+        width: 250px;
+        padding-top: 2px;
+    }
+
+    &__popup__description {
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: 500;
+        color: #808285;
+        margin-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    &__popup__description1 {
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 500;
+        color: #808285;
+        margin-bottom: 5px;
+        margin-bottom: 20px;
+    }
+  
+
+}

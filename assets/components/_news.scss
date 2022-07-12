@@ -1,0 +1,47 @@
+.news {
+    padding-bottom: 30px;
+
+    &__content {
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__description {
+        color: #808285;
+        font-size: 17px;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        
+    }
+
+    &__box {
+        width: 400px;
+        text-align: center;
+        margin: 15px 35px;
+        border: 1px solid #E2E2E2;
+        box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+        border-radius: 5px;
+    }
+    &__p1{
+        padding-top: 20px;
+    }
+
+    &__p4 {
+        padding-top: 20px;
+        width: 250px;
+        height: 147px;
+    }
+
+    &__title {
+        margin-top: 35px;
+        font-family: 'Playfair Display';
+        font-weight: 500;
+        font-size: 27px;
+        color: #808285;
+        width: 400px;
+    }
+}

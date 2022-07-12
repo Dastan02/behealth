@@ -1,0 +1,40 @@
+.footer{
+     padding-top: 50px;
+     padding-bottom: 50px;
+   background: #f0f0f6;
+     &__content{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+     }
+     &__bish{
+      margin-left: 40px;
+     }
+     
+     &__time{
+      font-family: 'Mulish';
+      width: 120px;
+     }
+     &__icons{
+      margin-right: 35px;
+      margin-top: 20px;
+     }
+     &__icons{
+    
+      margin-top: 20px;
+     }
+     &__gmail{
+      font-family: 'Mulish';
+      margin-bottom: 20px;
+     }
+     &__number{
+      font-family: 'Mulish';
+     }
+     &__title{
+      font-family: 'Playfair Display';
+      font-weight: 500;
+      font-size: 27px;
+      padding-bottom: 30px;
+     }
+}
